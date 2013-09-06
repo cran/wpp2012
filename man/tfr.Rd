@@ -4,17 +4,26 @@
 \alias{tfrprojMed}
 \alias{tfrprojHigh}
 \alias{tfrprojLow}
+\alias{tfrproj80l}
+\alias{tfrproj80u}
+\alias{tfrproj95l}
+\alias{tfrproj95u}
 \docType{data}
 \title{
 United Nations Time Series of Total Fertility Rate
 }
 \description{
-Datasets containing the United Nations time series of the total fertility rate (TFR) for all countries of the world as available in 2012. Dataset \code{tfr} contains estimates of the historical TFR starting with 1950; \code{tfr_supplemental} contains a subset of countries for which data prior 1950 are available. Datasets \code{tfrprojMed}, \code{tfrprojHigh} and \code{tfrprojLow} contain median, high and low projections, respectively.
+Datasets containing the United Nations time series of the total fertility rate (TFR) for all countries of the world as available in 2012. Dataset \code{tfr} contains estimates of the historical TFR starting with 1950; \code{tfr_supplemental} contains a subset of countries for which data prior 1950 are available. Datasets \code{tfrprojMed} contain the median projections. Datasets  \code{tfrproj80l}, \code{tfrproj80u}, \code{tfrproj95l}, and \code{tfrproj95u} are the lower (l) and upper (u) bounds of the 80 and 95\% probability intervals, respectively.
+Datasets \code{tfrprojHigh} and \code{tfrprojLow} contain high and low variants, respectively, defined as +-1/2 child.
 }
 \usage{
 data(tfr)
 data(tfr_supplemental)
 data(tfrprojMed)
+data(tfrproj80l)
+data(tfrproj80u)
+data(tfrproj95l)
+data(tfrproj95u)
 data(tfrprojHigh)
 data(tfrprojLow)
 }

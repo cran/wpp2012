@@ -5,6 +5,14 @@
 \alias{e0Fproj}
 \alias{e0M}
 \alias{e0Mproj}
+\alias{e0Mproj80l}
+\alias{e0Mproj80u}
+\alias{e0Mproj95l}
+\alias{e0Mproj95u}
+\alias{e0Fproj80l}
+\alias{e0Fproj80u}
+\alias{e0Fproj95l}
+\alias{e0Fproj95u}
 \alias{e0F_supplemental}
 \alias{e0M_supplemental}
 \docType{data}
@@ -12,7 +20,7 @@
 United Nations Time Series of Life Expectancy
 }
 \description{
-Datasets containing the United Nations time series of the life expectancy (e0) for all countries of the world as available in 2012. Datasets \code{e0F} and \code{e0F_supplemental} contain estimates for female historical e0; \code{e0M} and \code{e0M_supplemental} contain estimates for male historical e0. The \code{*_supplemental} datasets contain a subset of countries for which data prior 1950 are available. Datasets \code{e0Mproj} and \code{e0Fproj} contain projections of male and female e0, respectively.  
+Datasets containing the United Nations time series of the life expectancy (e0) for all countries of the world as available in 2012. Datasets \code{e0F} and \code{e0F_supplemental} contain estimates for female historical e0; \code{e0M} and \code{e0M_supplemental} contain estimates for male historical e0. The \code{*_supplemental} datasets contain a subset of countries for which data prior 1950 are available. Datasets \code{e0Mproj} and \code{e0Fproj} contain projections of male and female e0, respectively. Datasets \code{*80l}, \code{*95l} are the lower bounds of 80 and 95\% probability intervals,  \code{*80u}, \code{*95u} are the corresponding upper bounds.
 }
 \usage{
 data(e0F)
@@ -23,6 +31,16 @@ data(e0M_supplemental)
 
 data(e0Fproj)
 data(e0Mproj)
+
+data(e0Fproj80l)
+data(e0Fproj80u)
+data(e0Mproj80l)
+data(e0Mproj80u)
+
+data(e0Fproj95l)
+data(e0Fproj95u)
+data(e0Mproj95l)
+data(e0Mproj95u)
 }
 
 \format{
