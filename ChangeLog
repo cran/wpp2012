@@ -1,3 +1,11 @@
+2.2-0 (08/08/2014)
+-----
+Added datasets on 80 and 95% PIs for population, as released by the UN (http://esa.un.org/unpd/ppp).
+
+2.1-0 (5/6/2014)
+-----
+Added population projections for aggregated regions.
+
 2.0-0 (9/6/2013)
 ------
 Added datasets on 80 and 95% probability intervals for TFR and e0, as well as High and Low datasets for total population.

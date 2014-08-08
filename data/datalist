@@ -26,6 +26,10 @@ popM
 popMprojHigh
 popMprojLow
 popMprojMed
+popproj80l
+popproj80u
+popproj95l
+popproj95u
 popprojHigh
 popprojLow
 sexRatio
