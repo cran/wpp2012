@@ -12,11 +12,11 @@ Data from the United Nations World Population Prospects 2012.
 \details{
 \tabular{ll}{
 Package: \tab wpp2012\cr
-Version: \tab 2.2-0\cr
-Date: \tab 2014-8-8\cr
+Version: \tab 2.2-1\cr
+Date: \tab 2014-8-21\cr
 Depends: \tab R (>= 2.14.2)\cr
 License: \tab GPL (>= 2)\cr
-URL: \tab \url{http://esa.un.org/wpp}\cr
+URL: \tab \url{http://esa.un.org/wpp}, \url{http://esa.un.org/unpd/ppp}\cr
 }
 
 The package contains the following datasets:
@@ -35,13 +35,15 @@ The package contains the following datasets:
 \note{Distributions of net migrants by age and sex are provided for illustrative purpose only. Migration figures are based on intercensal net residuals and official statistics, population distribution by age and sex or simplified versions of Rogers-Castro migration age patterns, and incorporate statistical adjustment errors.}
 
 \source{
- These datasets are based on estimates and projections of United Nations, Department of Economic and Social Affairs, Population Division (2013). 
+ These datasets are based on estimates and projections of United Nations, Department of Economic and Social Affairs, Population Division (2013). The probabilistic projections were produced with the method of Raftery et al. (2012).
  }
  
  \references{
  World Population Prospects: The 2012 Revision. (\url{http://esa.un.org/unpd/wpp}) Special Tabulations.
  
  Probabilistic projections: \url{http://esa.un.org/unpd/ppp}
+ 
+ A. E. Raftery,  N. Li, H. Sevcikova , P. Gerland, G. K. Heilig (2012). Bayesian probabilistic population projections for all countries. Proceedings of the National Academy of Sciences 109:13915-13921.
 }
 
  \author{

@@ -1,5 +1,5 @@
-e288c699e22182315eab3a14cb61df47 *ChangeLog
-e852fc6b26cff629f45c929446d9e917 *DESCRIPTION
+d15b14cc6cce57cadf1b55d018e0990d *ChangeLog
+da7eb489e4386df0bd54834000738b7c *DESCRIPTION
 0ac5e0fc498026408e36e4f4ce2fd5b0 *NAMESPACE
 e7f558018de6dafcac2e0a2bb3bf85b7 *data/UNlocations.R
 242b7ad4e1a6b19e23561d5670b910c5 *data/UNlocations.txt
@@ -97,4 +97,4 @@ dc06179bb74a8c1bd94afa7a22e4e54b *man/MigByAge.Rd
 b368a2878112394ff4da0f074566d3ed *man/UNlocations.Rd
 c9f2a4890c88af348c6d90ed3dbd9732 *man/e0.Rd
 ed66f7e5da27d238133ceeb16e3775b8 *man/tfr.Rd
-1f1d38e2dfed65dca64ed8c18f8e7445 *man/wpp2012-package.Rd
+af23acc77b9c36f4e478ef87373d2a97 *man/wpp2012-package.Rd
